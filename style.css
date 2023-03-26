@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,11 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto";
+}
+
+.destaque {
+  font-family: "Alkatra";
 }
 
 #container {
@@ -14,6 +20,7 @@ body {
 
 #container > div {
   display: block;
+  transform: scaleX(0.9);
 }
 
 .container-rifa {
@@ -67,11 +74,6 @@ body {
   text-align: center;
 }
 
-.corpo .titulo {
-  font-family: serif;
-  text-transform: capitalize;
-}
-
 .corpo .valor {
   margin: 0.4rem 0;
   color: red;
@@ -109,4 +111,5 @@ body {
   padding: 0.4rem 1rem;
   border-radius: 0.4rem;
   text-transform: uppercase;
+  font-family: "Alkatra";
 }
