@@ -103,7 +103,7 @@ body {
 .container-premios::after {
   content: "Prêmios";
   position: absolute;
-  top: -16px;
+  top: -22px;
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
