@@ -15,17 +15,18 @@ body {
 }
 
 #container {
-  width: 21cm;
+  /* width: 21cm; */
+  width: 29.7cm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #container > div {
-  display: block;
-  transform: scaleX(0.9);
 }
 
 .container-rifa {
   border: 2px solid black;
-  height: 220px;
+  height: 168px;
   display: flex;
   align-items: center;
   position: relative;
@@ -34,15 +35,16 @@ body {
 
 .canhoto {
   padding: 1rem;
-  width: 260px;
+  /* width: 200px; */
   border-right: 2px dotted black;
   margin-right: 2rem;
   padding-right: 2rem;
+  font-size: 0.8rem;
 }
 
 .canhoto .container {
   margin: 1rem 0;
-  line-height: 1.8rem;
+  line-height: 1.2rem;
 }
 
 .canhoto .row {
@@ -56,7 +58,7 @@ body {
 }
 
 .canhoto strong {
-  font-size: 12px;
+  font-size: 0.6rem;
 }
 
 .canhoto h4 {
@@ -98,6 +100,7 @@ body {
   border: 4px solid black;
   border-radius: 0.6rem;
   position: relative;
+  font-size: 0.7rem;
 }
 
 .container-premios::after {
@@ -112,4 +115,10 @@ body {
   border-radius: 0.4rem;
   text-transform: uppercase;
   font-family: "Alkatra";
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
 }
