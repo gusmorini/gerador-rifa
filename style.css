@@ -121,4 +121,13 @@ body {
   @page {
     size: landscape;
   }
+
+  body {
+    zoom: 82%;
+    padding-left: 1rem;
+  }
+
+  .breakPage {
+    page-break-after: always;
+  }
 }
